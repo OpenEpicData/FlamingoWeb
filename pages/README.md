@@ -1,6 +1,20 @@
-# PAGES
+# Flamingo
 
-This directory contains your Application Views and Routes.
-The framework reads all the `*.vue` files inside this directory and creates the router of your application.
+## Introduction
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/routing).
+Flamingo is a open-source social networking sites,this is front-end version
+
+## Start
+
+1. yarn
+2. yarn dev
+
+## Design
+
+https://www.uplabs.com/posts/facebook-redesign-concept-news-profile-photo-chats
+
+## Screenshot
+
+![mKSYZt.png](https://s2.ax1x.com/2019/08/17/mKSYZt.png)
+
+[![mKSsLn.png](https://s2.ax1x.com/2019/08/17/mKSsLn.png)](https://imgchr.com/i/mKSsLn)
