@@ -1,22 +1,20 @@
-# flamingo
+# Flamingo
 
-> 
+## Introduction
 
-## Build Setup
+Flamingo is a open-source social networking sites,this is front-end version
 
-``` bash
-# install dependencies
-$ yarn install
+## Start
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+1. yarn
+2. yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## Design
 
-# generate static project
-$ yarn generate
-```
+https://www.uplabs.com/posts/facebook-redesign-concept-news-profile-photo-chats
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Screenshot
+
+![mKSYZt.png](https://s2.ax1x.com/2019/08/17/mKSYZt.png)
+
+[![mKSsLn.png](https://s2.ax1x.com/2019/08/17/mKSsLn.png)](https://imgchr.com/i/mKSsLn)
