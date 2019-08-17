@@ -1,7 +1,7 @@
 export default {
   mode: 'universal',
   transition: {
-    name: 'layout',
+    name: 'layout'
   },
   /*
    ** Headers of the page
@@ -9,7 +9,7 @@ export default {
   head: {
     title: process.env.npm_package_name || '',
     htmlAttrs: {
-      lang: 'zh-Hans',
+      lang: 'zh-Hans'
     },
     meta: [
       { charset: 'utf-8' },
@@ -21,7 +21,11 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: 'https://s2.ax1x.com/2019/08/07/e5UvH1.th.png' }
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: 'https://s2.ax1x.com/2019/08/07/e5UvH1.th.png'
+      }
     ]
   },
   /*
