@@ -1,0 +1,10 @@
+.layout-enter-active, .layout-leave-active {
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+.layout-transition-move {
+  transition: transform 0.6s;
+}
+.layout-enter, .layout-leave-active {
+  opacity: 0;
+  transform: translateX(15px);
+}

@@ -1,0 +1,59 @@
+<template>
+  <v-row>
+    <v-col v-for="(item, i) in informations" :key="i" xs="6" md="4" xl="3">
+      <v-card hover class="px-5">
+        <v-layout align-center justify-center>
+          <v-flex shrink>
+            <v-icon x-large>
+              {{ item.icon }}
+            </v-icon>
+          </v-flex>
+          <v-flex>
+            <v-container grid-list-lg pl-5 fill-height>
+              <v-layout align-center justify-start row>
+                <v-flex>
+                  <span class="title">
+                    {{ item.text }}
+                  </span>
+                  <br />
+                  <span class="subtitle-1 grey--text">
+                    {{ item.commit }}
+                  </span>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
+        </v-layout>
+      </v-card>
+    </v-col>
+  </v-row>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    informations: [
+      {
+        text: '27 岁',
+        commit: 'June 28, 1971',
+        icon: 'mdi-cake'
+      },
+      {
+        text: '居住在',
+        commit: 'Chalon Rd, Los Angeles, CA',
+        icon: 'mdi-map-marker'
+      },
+      {
+        text: 'CEO',
+        commit: 'SpaceX',
+        icon: 'mdi-briefcase'
+      },
+      {
+        text: '婚姻',
+        commit: '单身',
+        icon: 'mdi-account-tie'
+      }
+    ]
+  })
+}
+</script>
