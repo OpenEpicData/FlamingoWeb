@@ -78,7 +78,9 @@
               :key="i"
               link
               active-class="accent black--text"
-              :to="item.link"
+              :to="item.target ? '' : item.link"
+              :href="item.target ? item.link : ''"
+              :target="item.target ? '_black' : ''"
             >
               <v-list-item-action>
                 <v-icon>{{ item.icon }}</v-icon>
@@ -134,16 +136,16 @@ export default {
         { heading: '导航' },
 
         {
-          icon: 'mdi-qqchat',
-          text: 'QQ 群'
+          icon: 'mdi-github-circle',
+          text: 'GitHub',
+          link: 'https://github.com/OpenEpicData/FlamingoWeb',
+          target: true
         },
         {
-          icon: 'mdi-code-braces',
-          text: '教程源码'
-        },
-        {
-          icon: 'mdi-book-open-outline',
-          text: '在线阅读教程'
+          icon: 'mdi-twitter',
+          text: 'Twitter',
+          link: 'https://twitter.com/Agd_holo',
+          target: true
         }
       ]
     }
