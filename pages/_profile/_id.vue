@@ -24,7 +24,7 @@
                 </span>
               </v-col>
 
-              <v-col sm="12" class="d-none d-xl-flex">
+              <v-col sm="12" class="d-none d-lg-flex">
                 <v-tabs background-color="transparent">
                   <v-tab
                     v-for="(item, i) in profile.tabs"
@@ -56,7 +56,7 @@
         </v-container>
       </v-col>
 
-      <v-col sm="12">
+      <v-col sm="12" class="d-flex d-lg-none">
         <v-tabs fixed-tabs background-color="transparent">
           <v-tab
             v-for="(item, i) in profile.tabs"
