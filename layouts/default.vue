@@ -42,9 +42,9 @@
             </v-list-item-avatar>
           </v-list-item>
 
-          <v-list-item link>
+          <v-list-item link @click="$store.commit('set_login_display', true)">
             <v-list-item-content>
-              <v-list-item-title class="title">AGD</v-list-item-title>
+              <v-list-item-title class="title">AGD </v-list-item-title>
               <v-list-item-subtitle>agdholo@gmail.com</v-list-item-subtitle>
             </v-list-item-content>
 
@@ -100,11 +100,18 @@
         <nuxt />
       </v-container>
     </v-content>
+
+    <login :display.sync="$store.state.login.display" />
   </v-app>
 </template>
 
 <script>
+import login from '~/components/login.vue'
+
 export default {
+  components: {
+    login
+  },
   data: () => ({
     drawer: {
       display: null,
