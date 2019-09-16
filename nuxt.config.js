@@ -60,6 +60,8 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    // Doc: https://github.com/nuxt-community/proxy-module
+    '@nuxtjs/proxy',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
@@ -68,7 +70,12 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/api': 'http://127.0.0.1:8000'
+  },
   /*
    ** Build configuration
    */

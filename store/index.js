@@ -4,6 +4,9 @@ export const state = () => ({
   },
   login: {
     display: null
+  },
+  user: {
+    login: null
   }
 })
 
