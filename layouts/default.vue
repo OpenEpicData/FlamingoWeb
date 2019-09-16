@@ -108,6 +108,10 @@
 
     <v-content class="grey lighten-4">
       <v-container fluid>
+        <v-alert dense border="left" type="error">
+          我们正在将应用部署在 zeit 上，登录等功能可能不可用。
+        </v-alert>
+
         <nuxt />
       </v-container>
     </v-content>
