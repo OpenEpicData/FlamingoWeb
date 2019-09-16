@@ -10,7 +10,8 @@
           "middleware/**",
           "plugins/**",
           "lib/**",
-          "package.json"
+          "package.json",
+          "vuetify.options.js"
         ]
       }
     }
