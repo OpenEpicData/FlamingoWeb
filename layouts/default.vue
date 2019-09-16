@@ -166,7 +166,7 @@ export default {
         {
           icon: 'mdi-twitter',
           text: 'Twitter',
-          link: 'https://twitter.com/Agd_holo',
+          link: 'https://twitter.com/stackFlam1ngo',
           target: true
         }
       ]
