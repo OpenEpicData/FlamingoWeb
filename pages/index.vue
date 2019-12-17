@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="12" md="8">
+    <v-col cols="12" md="8" xl="9">
       <div>
         <TypeMessage />
 
@@ -8,7 +8,7 @@
       </div>
     </v-col>
 
-    <v-col cols="12" md="4">
+    <v-col cols="12" md="4" xl="3">
       <v-card>
         <v-card-text>
           <div class="mt-5">

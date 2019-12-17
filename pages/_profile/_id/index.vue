@@ -12,7 +12,7 @@
 
         <v-col md="4">
           <v-card class="elevation-1 py-3">
-            <v-layout align-center justify-space-around row fill-height>
+            <v-row align="center" justify="space-around">
               <div
                 v-for="(item, i) in status.columns"
                 :key="i"
@@ -28,7 +28,7 @@
                   {{ item.text }}
                 </span>
               </div>
-            </v-layout>
+            </v-row>
           </v-card>
 
           <v-card class="mt-5">

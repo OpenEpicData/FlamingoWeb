@@ -20,19 +20,19 @@
 
         <div class="mt-5">
           <v-row no-gutters align="left">
-            <v-col sm="4" md="2" xl="1">
+            <v-col cols="4" md="2" xl="1">
               <v-btn text dark large color="primary">
                 <v-icon left large dark>mdi-thumb-up-outline</v-icon>
                 <span class="ml-3 title">25K</span>
               </v-btn>
             </v-col>
-            <v-col sm="4" md="2" xl="1">
+            <v-col cols="4" md="2" xl="1">
               <v-btn text dark large color="grey">
                 <v-icon left large dark>mdi-message-outline</v-icon>
                 <span class="ml-3 title">2K</span>
               </v-btn>
             </v-col>
-            <v-col sm="4" md="2" xl="1">
+            <v-col cols="4" md="2" xl="1">
               <v-btn text dark large color="grey">
                 <v-icon left large dark>mdi-share-outline</v-icon>
                 <span class="ml-3 title">542</span>

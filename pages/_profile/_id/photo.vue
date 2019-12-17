@@ -2,19 +2,18 @@
   <v-timeline dense>
     <v-timeline-item v-for="i in years" :key="i" small>
       <v-row justify="start" align="center">
-        <v-col sm="12" md="1" cols="12">
+        <v-col cols="12" md="1">
           <span class="headline font-weight-bold">
             {{ i }}
           </span>
         </v-col>
-        <v-col sm="12" md="11" cols="12">
+        <v-col cols="12" md="11">
           <v-row>
             <v-col
               v-for="(item, k) in photos"
               :key="k"
               cols="6"
               md="4"
-              sm="6"
               lg="3"
               xl="2"
             >
