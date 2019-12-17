@@ -2,7 +2,10 @@
   <v-dialog v-model="display" max-width="440px" persistent>
     <v-card>
       <v-card-title>
-        <span>{{ register ? '注册' : login ? '登录' : '' }} Flamingo 账户</span>
+        <span
+          >{{ register ? 'Register' : login ? 'Login' : '' }} Flamingo
+          Account</span
+        >
 
         <v-spacer></v-spacer>
 
@@ -21,7 +24,7 @@
           <v-text-field
             v-model="email.data"
             :rules="email.rules"
-            label="电子邮件"
+            label="email"
             required
             type="email"
           ></v-text-field>
@@ -31,7 +34,7 @@
           <v-text-field
             v-model="name.data"
             :rules="name.rules"
-            label="用户名"
+            label="name"
             required
             type="text"
           ></v-text-field>
@@ -41,7 +44,7 @@
           <v-text-field
             v-model="password.data"
             :rules="password.rules"
-            label="密码"
+            label="password"
             required
             type="password"
           ></v-text-field>
@@ -49,13 +52,13 @@
 
         <p>
           <span class="primary--text">
-            使用安全密钥登入
+            Log in using the security key
             <v-icon small>mdi-help-circle-outline</v-icon>
           </span>
         </p>
 
         <p>
-          <span class="primary--text">登入选项</span>
+          <span class="primary--text">Login options</span>
         </p>
 
         <v-card-actions>
@@ -68,7 +71,7 @@
               login = false
             "
             text
-            >返回上一步</v-btn
+            >Back</v-btn
           >
 
           <v-btn
@@ -82,7 +85,7 @@
                 : verify_email(email.data)
             "
             color="primary"
-            >{{ register ? '注册' : login ? '登入' : '下一步' }}</v-btn
+            >{{ register ? 'Register' : login ? 'Login' : 'Next Step' }}</v-btn
           >
         </v-card-actions>
       </v-card-text>
@@ -105,19 +108,19 @@ export default {
     email: {
       data: null,
       rules: [
-        (v) => !!v || '邮件地址不能为空',
-        (v) => /.+@.+/.test(v) || '请输入正确的邮件地址'
+        (v) => !!v || 'The email address cannot be empty',
+        (v) => /.+@.+/.test(v) || 'Please enter the correct email address'
       ],
       valid: false
     },
     name: {
       data: null,
-      rules: [(v) => !!v || '用户名不能为空'],
+      rules: [(v) => !!v || 'The user name cannot be empty'],
       valid: false
     },
     password: {
       data: null,
-      rules: [(v) => !!v || '密码不能为空'],
+      rules: [(v) => !!v || 'The password cannot be empty'],
       valid: false
     }
   }),

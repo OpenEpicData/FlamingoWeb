@@ -41,8 +41,8 @@
               <v-img
                 :src="
                   $store.state.user.login
-                    ? 'https://s2.ax1x.com/2019/08/07/e5NUZq.jpg'
-                    : 'https://s2.ax1x.com/2019/08/07/e5NUZq.jpg'
+                    ? 'https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg'
+                    : 'https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg'
                 "
               >
               </v-img>
@@ -52,10 +52,10 @@
           <v-list-item @click="$store.commit('set_login_display', true)" link>
             <v-list-item-content>
               <v-list-item-title class="title"
-                >{{ $store.state.user.login ? 'AGD' : '登入' }}
+                >{{ $store.state.user.login ? 'User' : 'Login' }}
               </v-list-item-title>
               <v-list-item-subtitle v-if="$store.state.user.login">
-                agdholo@gmail.com
+                admin@gmail.com
               </v-list-item-subtitle>
             </v-list-item-content>
 
@@ -127,31 +127,31 @@ export default {
     drawer: {
       display: null,
       list: [
-        { heading: '菜单' },
+        { heading: 'Menu' },
         {
           icon: 'mdi-newspaper',
-          text: '动态',
+          text: 'Trending',
           link: '/'
         },
         {
           icon: 'mdi-message-text-outline',
-          text: '消息'
+          text: 'Messages'
         },
         {
           icon: 'mdi-account-outline',
-          text: '好友',
+          text: 'Friends',
           link: '/friends'
         },
         {
           icon: 'mdi-account-group-outline',
-          text: '社群'
+          text: 'Community'
         },
         {
           icon: 'mdi-calendar-text-outline',
-          text: '事件'
+          text: 'Events'
         },
         { divider: true },
-        { heading: '导航' },
+        { heading: 'Navigation' },
 
         {
           icon: 'mdi-github-circle',

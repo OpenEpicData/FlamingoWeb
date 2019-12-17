@@ -34,17 +34,17 @@
           <v-card class="mt-5">
             <v-card-text>
               <div class="mt-5">
-                <span class="title">关于</span>
+                <span class="title">About</span>
 
                 <div class="mt-5">
                   <span class="subtitle-1">
-                    27 岁, 单身
+                    27 Years old, Single
                   </span>
                 </div>
               </div>
 
               <div class="mt-12">
-                <span class="title">好友</span>
+                <span class="title">Friends</span>
 
                 <Friend />
               </div>
@@ -72,10 +72,10 @@ export default {
   data: () => ({
     status: {
       columns: [
-        { data: '739k', text: '喜欢' },
-        { data: '254k', text: '关注' },
-        { data: '193', text: '朋友' },
-        { data: '203', text: '推文' }
+        { data: '739k', text: 'Liked' },
+        { data: '254k', text: 'Followed' },
+        { data: '193', text: 'Friends' },
+        { data: '203', text: 'Tweets' }
       ]
     }
   })

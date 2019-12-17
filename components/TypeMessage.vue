@@ -4,7 +4,10 @@
       <v-toolbar flat>
         <v-toolbar-title class="d-none d-sm-flex">
           <v-avatar size="50">
-            <img src="https://s2.ax1x.com/2019/08/07/e5NUZq.jpg" alt="avatar" />
+            <img
+              src="https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg"
+              alt="avatar"
+            />
           </v-avatar>
         </v-toolbar-title>
 
@@ -14,7 +17,7 @@
           outlined
           rows="1"
           hide-details
-          label="你在想什么？"
+          label="What are you thinking about?"
           background-color="transparent"
           color="black"
           class="mx-2"

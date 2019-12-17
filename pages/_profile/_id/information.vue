@@ -30,12 +30,12 @@ export default {
   data: () => ({
     informations: [
       {
-        text: '27 岁',
+        text: '27 Years Old',
         commit: 'June 28, 1971',
         icon: 'mdi-cake'
       },
       {
-        text: '居住在',
+        text: 'Live In',
         commit: 'Chalon Rd, Los Angeles, CA',
         icon: 'mdi-map-marker'
       },
@@ -45,8 +45,8 @@ export default {
         icon: 'mdi-briefcase'
       },
       {
-        text: '婚姻',
-        commit: '单身',
+        text: 'Marital Status',
+        commit: 'Single',
         icon: 'mdi-account-tie'
       }
     ]

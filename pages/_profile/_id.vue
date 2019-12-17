@@ -6,7 +6,9 @@
           <v-col md="auto" class="d-none d-md-flex">
             <v-avatar size="170">
               <img
-                :src="`https://s2.ax1x.com/2019/08/07/e5NUZq.jpg`"
+                :src="
+                  `https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg`
+                "
                 alt="avatar"
               />
             </v-avatar>
@@ -77,19 +79,19 @@ export default {
     profile: {
       tabs: [
         {
-          text: '动态',
+          text: 'Trending',
           link: ''
         },
         {
-          text: '资料',
+          text: 'Information',
           link: 'information'
         },
         {
-          text: '好友',
+          text: 'Friends',
           link: 'friends'
         },
         {
-          text: '照片',
+          text: 'Photos',
           link: 'photo'
         }
       ]

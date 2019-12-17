@@ -3,12 +3,15 @@
     <v-card v-for="k in 3" :key="k" outlined class="post mb-5">
       <v-list-item>
         <v-list-item-avatar>
-          <img src="https://s2.ax1x.com/2019/08/07/e5NUZq.jpg" alt="avatar" />
+          <img
+            src="https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg"
+            alt="avatar"
+          />
         </v-list-item-avatar>
 
         <v-list-item-content>
-          <v-list-item-title class="headline">AGD</v-list-item-title>
-          <v-list-item-subtitle>夜晚 8:15，昨日</v-list-item-subtitle>
+          <v-list-item-title class="headline">Elon Musk</v-list-item-title>
+          <v-list-item-subtitle>8:15 PM，Yesterday</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -20,19 +23,19 @@
 
         <div class="mt-5">
           <v-row no-gutters align="left">
-            <v-col cols="4" md="2" xl="1">
+            <v-col cols="auto">
               <v-btn text dark large color="primary">
                 <v-icon left large dark>mdi-thumb-up-outline</v-icon>
                 <span class="ml-3 title">25K</span>
               </v-btn>
             </v-col>
-            <v-col cols="4" md="2" xl="1">
+            <v-col cols="auto">
               <v-btn text dark large color="grey">
                 <v-icon left large dark>mdi-message-outline</v-icon>
                 <span class="ml-3 title">2K</span>
               </v-btn>
             </v-col>
-            <v-col cols="4" md="2" xl="1">
+            <v-col cols="auto">
               <v-btn text dark large color="grey">
                 <v-icon left large dark>mdi-share-outline</v-icon>
                 <span class="ml-3 title">542</span>
