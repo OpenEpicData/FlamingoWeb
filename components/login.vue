@@ -7,10 +7,10 @@
         <v-spacer></v-spacer>
 
         <v-btn
+          @click="$store.commit('set_login_display', false)"
           text
           icon
           color="primary"
-          @click="$store.commit('set_login_display', false)"
         >
           <v-icon>mdi-close-circle-outline</v-icon>
         </v-btn>
@@ -63,16 +63,15 @@
 
           <v-btn
             v-if="register || login"
-            text
             @click="
               register = false
               login = false
             "
+            text
             >返回上一步</v-btn
           >
 
           <v-btn
-            color="primary"
             :disabled="!email.valid || email.loading"
             :loading="loading"
             @click="
@@ -82,6 +81,7 @@
                 ? account('login')
                 : verify_email(email.data)
             "
+            color="primary"
             >{{ register ? '注册' : login ? '登入' : '下一步' }}</v-btn
           >
         </v-card-actions>

@@ -8,8 +8,8 @@
       color="grey lighten-4"
     >
       <v-app-bar-nav-icon
-        class="d-lg-none"
         @click="drawer.display = !drawer.display"
+        class="d-lg-none"
       ></v-app-bar-nav-icon>
       <v-tabs
         color="black"
@@ -49,7 +49,7 @@
             </v-list-item-avatar>
           </v-list-item>
 
-          <v-list-item link @click="$store.commit('set_login_display', true)">
+          <v-list-item @click="$store.commit('set_login_display', true)" link>
             <v-list-item-content>
               <v-list-item-title class="title"
                 >{{ $store.state.user.login ? 'AGD' : '登入' }}
@@ -87,11 +87,11 @@
             <v-list-item
               v-else
               :key="i"
-              link
-              active-class="accent black--text"
               :to="item.target ? '' : item.link"
               :href="item.target ? item.link : ''"
               :target="item.target ? '_black' : ''"
+              link
+              active-class="accent black--text"
             >
               <v-list-item-action>
                 <v-icon>{{ item.icon }}</v-icon>
@@ -108,10 +108,6 @@
 
     <v-content class="grey lighten-4">
       <v-container fluid>
-        <v-alert dense border="left" type="error">
-          我们正在将应用部署在 zeit 上，登录等功能可能不可用。
-        </v-alert>
-
         <nuxt />
       </v-container>
     </v-content>
