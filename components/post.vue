@@ -3,10 +3,7 @@
     <v-card v-for="k in 3" :key="k" outlined class="post mb-5">
       <v-list-item>
         <v-list-item-avatar>
-          <img
-            src="https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg"
-            alt="avatar"
-          />
+          <img src="https://s2.ax1x.com/2019/12/17/QTGUoV.jpg" alt="avatar" />
         </v-list-item-avatar>
 
         <v-list-item-content>
@@ -22,7 +19,7 @@
         <Slide class="mt-3" />
 
         <div class="mt-5">
-          <v-row no-gutters align="left">
+          <v-row no-gutters align="start">
             <v-col cols="auto">
               <v-btn text dark large color="primary">
                 <v-icon left large dark>mdi-thumb-up-outline</v-icon>

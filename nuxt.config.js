@@ -7,9 +7,9 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Flamingo - a free open source template based on Vuetify',
     htmlAttrs: {
-      lang: 'zh-Hans'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -24,7 +24,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'https://s2.ax1x.com/2019/08/07/e5UvH1.th.png'
+        href: 'https://s2.ax1x.com/2019/12/17/QTGUoV.jpg'
       }
     ]
   },

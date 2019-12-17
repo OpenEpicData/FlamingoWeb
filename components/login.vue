@@ -1,6 +1,6 @@
 <template>
   <v-dialog v-model="display" max-width="440px" persistent>
-    <v-card>
+    <v-card shaped>
       <v-card-title>
         <span
           >{{ register ? 'Register' : login ? 'Login' : '' }} Flamingo

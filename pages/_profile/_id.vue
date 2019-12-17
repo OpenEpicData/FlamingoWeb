@@ -6,9 +6,7 @@
           <v-col md="auto" class="d-none d-md-flex">
             <v-avatar size="170">
               <img
-                :src="
-                  `https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg`
-                "
+                :src="`https://s2.ax1x.com/2019/12/17/QTGUoV.jpg`"
                 alt="avatar"
               />
             </v-avatar>

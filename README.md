@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Flamingo is a open-source social networking sites,this is front-end version
+Flamingo is a free open source template based on Vuetify
 
 ## Start
 
@@ -15,8 +15,8 @@ https://www.uplabs.com/posts/facebook-redesign-concept-news-profile-photo-chats
 
 ## Screenshot
 
-![mKSYZt.png](https://s2.ax1x.com/2019/08/17/mKSYZt.png)
+[![QTJCmn.md.png](https://s2.ax1x.com/2019/12/17/QTJCmn.md.png)](https://imgchr.com/i/QTJCmn)
 
-[![mKSsLn.png](https://s2.ax1x.com/2019/08/17/mKSsLn.png)](https://imgchr.com/i/mKSsLn)
+[![QTJanA.md.png](https://s2.ax1x.com/2019/12/17/QTJanA.md.png)](https://imgchr.com/i/QTJanA)
 
-![m3lwfP.png](https://s2.ax1x.com/2019/08/19/m3lwfP.png)
+[![QTJvAx.md.png](https://s2.ax1x.com/2019/12/17/QTJvAx.md.png)](https://imgchr.com/i/QTJvAx)

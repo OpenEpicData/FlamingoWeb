@@ -1,13 +1,10 @@
 <template>
   <div>
-    <v-card class="elevation-1 type-message py-3">
+    <v-card class="type-message py-3">
       <v-toolbar flat>
         <v-toolbar-title class="d-none d-sm-flex">
           <v-avatar size="50">
-            <img
-              src="https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg"
-              alt="avatar"
-            />
+            <img src="https://s2.ax1x.com/2019/12/17/QTGUoV.jpg" alt="avatar" />
           </v-avatar>
         </v-toolbar-title>
 

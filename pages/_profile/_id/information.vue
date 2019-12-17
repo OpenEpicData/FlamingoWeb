@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col v-for="(item, i) in informations" :key="i" xs="6" md="4" xl="3">
-      <v-card hover class="px-5">
+      <v-card outlined hover class="px-5">
         <v-row align="center" justify="center">
           <v-flex shrink>
             <v-icon x-large>

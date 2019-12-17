@@ -41,8 +41,8 @@
               <v-img
                 :src="
                   $store.state.user.login
-                    ? 'https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg'
-                    : 'https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg'
+                    ? 'https://s2.ax1x.com/2019/12/17/QTGUoV.jpg'
+                    : 'https://s2.ax1x.com/2019/12/17/QTGUoV.jpg'
                 "
               >
               </v-img>

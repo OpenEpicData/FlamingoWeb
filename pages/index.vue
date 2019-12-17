@@ -9,7 +9,7 @@
     </v-col>
 
     <v-col cols="12" md="4" xl="3">
-      <v-card>
+      <v-card outlined>
         <v-card-text>
           <div class="mt-5">
             <div>
@@ -37,7 +37,7 @@
               >
                 <v-avatar size="62">
                   <v-img
-                    src="https://cdn.dribbble.com/users/60166/screenshots/4480181/flamingo_logo.jpg"
+                    src="https://s2.ax1x.com/2019/12/17/QTGUoV.jpg"
                     width="100%"
                     height="100%"
                   ></v-img>
