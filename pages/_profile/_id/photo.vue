@@ -1,32 +1,34 @@
 <template>
-  <v-timeline dense>
-    <v-timeline-item v-for="i in years" :key="i" small>
-      <v-row justify="start" align="center">
-        <v-col cols="12" md="1">
-          <span class="headline font-weight-bold">
-            {{ i }}
-          </span>
-        </v-col>
-        <v-col cols="12" md="11">
-          <v-row>
-            <v-col
-              v-for="(item, k) in photos"
-              :key="k"
-              cols="6"
-              md="4"
-              lg="3"
-              xl="2"
-            >
-              <v-card hover>
-                <v-img :src="item" :aspect-ratio="16 / 9"></v-img>
-              </v-card>
-            </v-col>
-          </v-row>
-          <v-divider></v-divider>
-        </v-col>
-      </v-row>
-    </v-timeline-item>
-  </v-timeline>
+  <div>
+    <v-timeline dense>
+      <v-timeline-item v-for="i in years" :key="i" small>
+        <v-row justify="start" align="center">
+          <v-col cols="12" md="1">
+            <span class="headline font-weight-bold">
+              {{ i }}
+            </span>
+          </v-col>
+          <v-col cols="12" md="11">
+            <v-row>
+              <v-col
+                v-for="(item, k) in photos"
+                :key="k"
+                cols="6"
+                md="4"
+                lg="3"
+                xl="2"
+              >
+                <v-card hover>
+                  <v-img :src="item" :aspect-ratio="16 / 9"></v-img>
+                </v-card>
+              </v-col>
+            </v-row>
+            <v-divider></v-divider>
+          </v-col>
+        </v-row>
+      </v-timeline-item>
+    </v-timeline>
+  </div>
 </template>
 
 <script>
