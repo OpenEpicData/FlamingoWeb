@@ -8,7 +8,7 @@
 
         <v-list-item-content>
           <v-list-item-title class="headline">Elon Musk</v-list-item-title>
-          <v-list-item-subtitle>8:15 PM，Yesterday</v-list-item-subtitle>
+          <v-list-item-subtitle>8:15 PM, yesterday</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -21,19 +21,19 @@
         <div class="mt-5">
           <v-row no-gutters align="start">
             <v-col cols="auto">
-              <v-btn text dark large color="primary">
+              <v-btn text dark large color="grey lighten-2">
                 <v-icon left large dark>mdi-thumb-up-outline</v-icon>
                 <span class="ml-3 title">25K</span>
               </v-btn>
             </v-col>
             <v-col cols="auto">
-              <v-btn text dark large color="grey">
+              <v-btn text dark large color="grey lighten-2">
                 <v-icon left large dark>mdi-message-outline</v-icon>
                 <span class="ml-3 title">2K</span>
               </v-btn>
             </v-col>
             <v-col cols="auto">
-              <v-btn text dark large color="grey">
+              <v-btn text dark large color="grey lighten-2">
                 <v-icon left large dark>mdi-share-outline</v-icon>
                 <span class="ml-3 title">542</span>
               </v-btn>

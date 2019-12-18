@@ -14,20 +14,17 @@
           outlined
           rows="1"
           hide-details
-          label="What are you thinking about?"
+          label="What’s on your mind?"
           background-color="transparent"
           color="black"
           class="mx-2"
         ></v-textarea>
         <div class="d-none d-sm-flex">
-          <v-btn icon>
+          <v-btn icon color="primary">
             <v-icon>mdi-file-image-outline</v-icon>
           </v-btn>
-          <v-btn icon>
+          <v-btn icon color="primary">
             <v-icon>mdi-camera-outline</v-icon>
-          </v-btn>
-          <v-btn icon>
-            <v-icon>mdi-account-off-outline</v-icon>
           </v-btn>
         </div>
       </v-toolbar>

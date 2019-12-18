@@ -15,13 +15,15 @@ export default {
     light: true,
     themes: {
       light: {
-        primary: '#2196F3',
-        secondary: '#1E88E5',
-        accent: '#90CAF9',
-        error: '#D50000',
-        warning: '#FFD600',
-        info: '#03A9F4',
-        success: '#4CAF50'
+        primary: '#3C5A99',
+        secondary: '#E8E8E8',
+        accent: '#E86250',
+        error: '#E63B3B',
+        warning: '#EA634B',
+        info: '#3C5A99',
+        success: '#3BE691',
+        bg_primary: '#f6f6f9',
+        bg_secondary: '#F2F2F5'
       }
     }
   }

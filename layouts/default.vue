@@ -5,7 +5,7 @@
       app
       fixed
       flat
-      color="grey lighten-4"
+      color="bg_primary"
     >
       <v-app-bar-nav-icon
         @click="drawer.display = !drawer.display"
@@ -14,7 +14,7 @@
       <v-tabs
         color="black"
         slider-color="primary"
-        background-color="grey lighten-4"
+        background-color="bg_primary"
       >
         <v-tab
           v-for="(item, i) in $store.state.appbar.tabs"
@@ -28,13 +28,13 @@
 
     <v-navigation-drawer
       v-model="drawer.display"
-      color="blue-grey lighten-5"
+      color="bg_secondary"
       app
       fixed
       left
       flat
     >
-      <v-sheet color="blue-grey lighten-5">
+      <v-sheet color="bg_secondary">
         <v-list two-line>
           <v-list-item>
             <v-list-item-avatar>
@@ -67,7 +67,7 @@
 
         <v-divider dark></v-divider>
 
-        <v-list nav dense>
+        <v-list nav dense flat>
           <template v-for="(item, i) in drawer.list">
             <v-layout v-if="item.heading" :key="i">
               <v-flex xs6>
@@ -91,7 +91,7 @@
               :href="item.target ? item.link : ''"
               :target="item.target ? '_black' : ''"
               link
-              active-class="accent black--text"
+              active-class="red--text"
             >
               <v-list-item-action>
                 <v-icon>{{ item.icon }}</v-icon>
@@ -106,7 +106,7 @@
       </v-sheet>
     </v-navigation-drawer>
 
-    <v-content class="grey lighten-4">
+    <v-content class="bg_primary">
       <v-container fluid>
         <nuxt />
       </v-container>
@@ -144,7 +144,7 @@ export default {
         },
         {
           icon: 'mdi-account-group-outline',
-          text: 'Community'
+          text: 'Communities'
         },
         {
           icon: 'mdi-calendar-text-outline',

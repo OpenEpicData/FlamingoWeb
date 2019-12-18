@@ -47,7 +47,7 @@
           </div>
 
           <div class="mt-12">
-            <span class="title">Events</span>
+            <span class="title">Upcoming events</span>
 
             <div class="mt-5">
               <v-img
@@ -63,7 +63,7 @@
           </div>
 
           <div class="mt-12">
-            <span class="title">Friend Requests</span>
+            <span class="title">Friend requests</span>
 
             <Friend />
           </div>
@@ -86,7 +86,14 @@ export default {
   },
   data: () => ({
     appbar: {
-      tabs: ['Tweet', 'Photo', 'Video', 'Community']
+      tabs: [
+        'Posts',
+        'Photos',
+        'Video',
+        'Communities',
+        'Favourites',
+        'Recommendations'
+      ]
     }
   }),
   mounted() {

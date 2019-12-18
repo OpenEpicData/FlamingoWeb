@@ -75,7 +75,7 @@ export default {
         { data: '739k', text: 'Liked' },
         { data: '254k', text: 'Followed' },
         { data: '193', text: 'Friends' },
-        { data: '203', text: 'Tweets' }
+        { data: '203', text: 'Posts' }
       ]
     }
   })
