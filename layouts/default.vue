@@ -90,6 +90,7 @@
               :to="item.target ? '' : item.link"
               :href="item.target ? item.link : ''"
               :target="item.target ? '_black' : ''"
+              :disabled="!item.link"
               link
               active-class="red--text"
             >

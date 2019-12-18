@@ -60,7 +60,6 @@
             v-for="(item, i) in profile.tabs"
             :key="i"
             :to="`/profile/${$route.params.id}/${item.link}`"
-            exact
             >{{ item.text }}</v-tab
           >
         </v-tabs>
@@ -83,10 +82,6 @@ export default {
         {
           text: 'Information',
           link: 'information'
-        },
-        {
-          text: 'Friends',
-          link: 'friends'
         },
         {
           text: 'Photos',
