@@ -15,8 +15,8 @@ https://www.uplabs.com/posts/facebook-redesign-concept-news-profile-photo-chats
 
 ## Screenshot
 
-[![QTJCmn.md.png](https://s2.ax1x.com/2019/12/17/QTJCmn.md.png)](https://imgchr.com/i/QTJCmn)
+[![QTJCmn.md.png](https://s2.ax1x.com/2019/12/17/QTJCmn.md.png)](https://s2.ax1x.com/2019/12/17/QTJCmn.md.png)
 
-[![QTJanA.md.png](https://s2.ax1x.com/2019/12/17/QTJanA.md.png)](https://imgchr.com/i/QTJanA)
+[![QTJanA.md.png](https://s2.ax1x.com/2019/12/17/QTJanA.md.png)](https://s2.ax1x.com/2019/12/17/QTJanA.md.png)
 
-[![QTJvAx.md.png](https://s2.ax1x.com/2019/12/17/QTJvAx.md.png)](https://imgchr.com/i/QTJvAx)
+[![QTJvAx.md.png](https://s2.ax1x.com/2019/12/17/QTJvAx.md.png)](https://s2.ax1x.com/2019/12/17/QTJvAx.md.png)
