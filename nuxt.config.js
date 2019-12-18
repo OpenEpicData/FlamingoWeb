@@ -7,7 +7,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Flamingo - a free open source template based on Vuetify',
+    title:
+      'Flamingo - a free open source social network template based on Vuetify & Nuxt',
     htmlAttrs: {
       lang: 'en'
     },

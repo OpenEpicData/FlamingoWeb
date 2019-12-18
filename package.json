@@ -1,7 +1,7 @@
 {
   "name": "flamingo",
   "version": "1.0.0",
-  "description": "flamingo",
+  "description": "Flamingo is a free open source social network template based on Vuetify & Nuxt",
   "author": "AGD",
   "private": true,
   "scripts": {
