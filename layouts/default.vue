@@ -143,17 +143,15 @@ export default {
           text: 'Friends',
           link: '/friends'
         },
+        { divider: true },
+        { heading: 'Components' },
         {
-          icon: 'mdi-account-group-outline',
-          text: 'Communities'
-        },
-        {
-          icon: 'mdi-calendar-text-outline',
-          text: 'Events'
+          icon: 'mdi-account-outline',
+          text: 'All',
+          link: '/components/all'
         },
         { divider: true },
         { heading: 'Navigation' },
-
         {
           icon: 'mdi-github-circle',
           text: 'GitHub',
